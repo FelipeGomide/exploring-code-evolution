@@ -81,9 +81,22 @@ Seja criativo!
 
 Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
-2. Gráfico selecionado: <IMAGEM_DO_GRAFICO_SELECIONADO_AQUI>
-3. Explicação: <EXPLICACAO_AQUI>
+1. Repositório selecionado: https://github.com/axios/axios
+2. Gráfico selecionado:
 
+<img width="500" alt="Variable_declarations" src="https://github.com/user-attachments/assets/eef767e3-3379-4a41-ae11-a385bd3329e9" />
 
+4. Explicação: 
 
+O gráfico é relativo à biblioteca Axios, escrita em JavaScript, que permite fazer requisições HTTP no lado do cliente e do servidor, auxiliando no desenvolvimento de sistemas web.
+
+O gráfico mostra a clara evolução e manutenção da ferramenta com o passar do tempo. O aumento no número total de declarações de variáveis demonstra um crescimento do código, o que muito provavelmente está relacionado com o surgimento ou melhoria de funcionalidades da biblioteca, um indicador positivo de que o projeto é bem mantido, já que cresce constantemente. 
+
+Além disso, existe um ponto de virada muito chave nas curvas de cada tipo de variável declarada. Entre 2022 e 2023, houve um crescimento muito grande no número de chamadas do tipo `const`, e o decréscimo de chamadas do tipo `var`.
+Esse comportamento provavelmente indica que nesse momento houveram muitos esforços para refatoração ou reestruturação do código da biblioteca, já que variáveis `const` são mais seguras, pois são limitadas a um escopo e não podem ser reescritas, tornando o código mais legível e com menos comportamentos inesperados.
+
+Ao pesquisar sobre o contexto dessas mudanças, existe um evento bem significativo na linha do tempo, que pode ter incentivado essa reestruturação da biblioteca.
+A biblioteca Axios sempre foi bastante popular no desenvolvimento Web pois fornecia uma interface simples, mas também bastante completa para lidar com requisições HTTP.
+Em 2022, a API `fetch`, nativa do JavaScript, se tornou bastante popular, pois passou a ser adotada por todos os navegadores, e em principal, passou a ser suportada pelo ambiente de desenvolvimento Node.js. 
+Ela surgiu como uma opção bastante simples e de interface clara e concisa, e é uma opção bastante utilizada para requisições HTTP.
+Nesse contexto, acredito que houve uma necessidade da ferramenta Axios de se modernizar, de oferecer ainda mais capacidades que vão além das funcionalidades mais simples, para que ainda existam casos de uso para a ferramenta e se diferenciar da opção nativa da linguagem, por isso, os desenvolvedores tiveram de reestruturar o projeto para que a biblioteca pudesse expandir de forma mais robusta e segura, em termos de código.
